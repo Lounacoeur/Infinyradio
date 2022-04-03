@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Infiny Radio</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/commun.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/diapo.css">
+    <script src="js/diapo.js"></script>
+</head>
+
+<body>
+	<!--  -->
+	<div class="bandemenu">
+		<a href="accueil.html"><img src="./img/Logo/Logo.png" class="logo"></a>
+        
+		<div class="co">
+			<input class="bouton connection" type="button" value="Se connecter">
+		</div>
+		
+		<ul class="menu onglet">
+			<li><a class="onglet-animation-border onglet-affiché" href="index.html">Accueil</a></li>
+			<li><a class="onglet-animation-border onglet-affiché" href="radio.html">Radio</a></li>
+			<li><a class="onglet-animation-border onglet-affiché" href="evenements.html">Événements</a></li>
+			<li><a class="onglet-animation-border onglet-affiché" href="a_propos.html">À propos</a></li>
+			<li><a class="onglet-animation-border onglet-affiché" href="nous_contacter.html">Nous contacter</a></li>
+		</ul>
+	</div>
+
+	<div class="fond1">
+        <div class="diapo">
+            <div class="slide-container">
+
+                <div class="custom-slider fade">
+                    <div class="slide-index">1 / 3</div>
+                    <img class="slide-img" src="./img/png/5B95D263-AB6E-4823-82C7-74A07C53F72A.jpg">
+                    <div class="slide-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                </div>
+
+                <div class="custom-slider fade">
+                    <div class="slide-index">2 / 3</div>
+                    
+                    <img class="slide-img" src="./img/png/IMG_0804.JPG">
+                    
+                    <div class="slide-text">Nullam luctus aliquam ornare. </div>
+                </div>
+
+                <div class="custom-slider fade">
+                    <div class="slide-index">3 / 3</div>
+                    <img class="slide-img" src="./img/png/IMG_0805.JPG">
+                    <div class="slide-text">Praesent lobortis libero sed egestas suscipit.</div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+
+            <br>
+
+            <div class="slide-dot">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+        </div>
+	</div>
+
+</body>
+
+
+</html>
